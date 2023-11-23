@@ -153,7 +153,7 @@ class Interface:
                     numero = estado[i][j]
                     self.canvas.itemconfig(self.puzzle_images[i][j], image=self.imagens[numero])
                     self.root.update()
-                    self.root.after(80)
+                    self.root.after(90)
 
     def atualizar_estados_na_interface(self):
         self.estado_inicial_label.config(text=f"Estado Inicial: {self.estado_inicial}")
